@@ -94,5 +94,9 @@ mongodb基础操作命令
 
 [http://mongoosejs.com/](http://mongoosejs.com/)
 
-
+终端mongodb运行方式
+brew info mongodb
+mongod --config /usr/local/etc/mongod.conf运行数据库
+再另外打开一个终端command + T 新建一个终端窗口内输入:mongo
+use xxx切换到xxx数据库
 
